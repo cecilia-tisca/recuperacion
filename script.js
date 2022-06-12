@@ -118,9 +118,11 @@ de alumnos Y se necesitan integrar a una sola fila */
 
 const fila1 = ['Toto','Karla','Diana'];
 const fila2 = ['Karen','Ingrid','Fabiola'];
-const fila = fila1.concat(fila2);
+const filas = fila1.concat(fila2);
 
-console.log(fila);
+console.log(filas);
+
+
 
 /*SHIFT: Elimina el primer elemento del array
 y lo retorna. Este método significa la longitud del array*/
@@ -137,3 +139,17 @@ var eliminado = person.shift();
 console.log('La fila despues: ' + person);
 
 console.log('Persona que paso: ' + eliminado);
+
+
+/*UNSHIFT: Agrega uno o más elementos al 
+inicio del array, y devuelve la nueva longitud del array*/
+
+/*CASO DE USO: Tenemos un Array de personas
+Algunos se metieron a la fila y mover
+a los que recorrieron a tras cuando se metieron.*/
+
+const fila = ['Juan','Luis','Pedro','Moriana'];
+
+console.log(fila.unshift('Maria', 'Diana'));
+
+console.log(fila);
