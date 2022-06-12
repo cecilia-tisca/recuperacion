@@ -1,3 +1,4 @@
+
 /* MAP: Es una función que te permiete transformar 
 los elementos de una lista y devuelve una nueva
 lista con los elementos transformados.*/
@@ -16,3 +17,4 @@ function getCobroMasExtra(){
     return cobroMasExtra
 }
 console.log(getCobroMasExtra());
+
